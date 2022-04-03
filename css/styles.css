@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+main {
+  background-color: aliceblue;
+}
+
+.navbar {
+  background-image: url(/Multimedia/test/test1244x250creo.png);
+}
+
+.importantitle {
+  font-family: 'Alumni Sans Inline One', cursive;
+  font-size: 500%;
+  text-align: center;
+}
+
+.cartasdepjs {
+  margin-top: 3%;
+  padding: 1rem;
+  height: 36rem;
+  overflow: auto;
+}
+
+.carta {
+  padding: 0.5rem;
+  height: auto;
+}
+
+.carta--acordeon--titulo {
+  color: red;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */
