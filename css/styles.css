@@ -42,4 +42,9 @@ main {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.carta--imagen:hover {
+  -webkit-transform: scale(1.1s);
+          transform: scale(1.1s);
+}
 /*# sourceMappingURL=styles.css.map */

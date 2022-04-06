@@ -33,7 +33,7 @@ main {
     height: 36rem;
     overflow: auto;
 }
- .carta{
+.carta{
         padding: 0.5rem;
            height: auto;
         &--acordeon {
@@ -46,7 +46,9 @@ main {
                 }
             
         }   
-
+        &--imagen:hover {
+            transform: scale(1.1s);
+        }
     }
 
 
