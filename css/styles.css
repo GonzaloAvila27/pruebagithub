@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,14 +12,18 @@
 }
 
 body {
-  background-color: blanchedalmond;
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, #f5ed00), color-stop(80%, #e6de00)), #fff700;
+  background: linear-gradient(90deg, #f5ed00 80%, #e6de00 80%), #fff700;
 }
 
 main {
-  background-color: aliceblue;
+  background-color: red;
+  border: black 3px solid;
 }
 
 .navbar {
+  height: 15vh;
+  font-size: 1.5rem;
   background-image: url(/Multimedia/test/test1244x250creo.png);
 }
 
@@ -21,30 +31,59 @@ main {
   font-family: 'Alumni Sans Inline One', cursive;
   font-size: 500%;
   text-align: center;
+  color: white;
+}
+
+.importantitle:hover {
+  color: black;
 }
 
 .cartasdepjs {
   margin-top: 3%;
   padding: 1rem;
-  height: 36rem;
   overflow: auto;
 }
 
 .carta {
   padding: 0.5rem;
   height: auto;
+  border: violet 1% solid;
+  border-radius: 3px;
 }
 
 .carta--acordeon--titulo {
-  color: red;
+  color: black;
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.carta--imagen:hover {
-  -webkit-transform: scale(1.1s);
-          transform: scale(1.1s);
+.carta--imagen--1:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
+}
+
+.carta--imagen--2:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
+}
+
+.carta--imagen--3:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
+}
+
+.carta--imagen--4:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
+}
+
+.carta--imagen--5:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
+}
+
+.carta--imagen--6:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
+}
+
+.carta--imagen--7:active {
+  content: url(/Multimedia/cards/cardshover/Asaitama.png);
 }
 /*# sourceMappingURL=styles.css.map */
